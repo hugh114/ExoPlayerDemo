@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yt_color_black_bg</item>
+        <item name="colorPrimaryDark">@color/yt_color_black</item>
+        <item name="colorAccent">@color/yt_color_yellow</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">1200</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_circle</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_circle</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Yellow" parent="@style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/bg_progress_bar_circle</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Vertical">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/bg_seek_bar</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minWidth">1dip</item>
+        <item name="android:maxWidth">1dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/bg_seek_bar</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+    </style>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/yt_color_black"
+    android:orientation="vertical">
+
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+        android:id="@+id/player_fl_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <SurfaceView
+            android:id="@+id/player_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+
+    <ImageView
+        android:id="@+id/player_iv_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yt_color_translucent"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/player_loading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+    <exo.test.hugh.com.exotest.YTPlayerController
+        android:id="@+id/player_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="yt_color_black">#FF000000</color>
+    <color name="yt_color_black_bg">#FF242424</color>
+    <color name="yt_color_white">#FFFFFFFF</color>
+    <color name="yt_color_white_translucent">#7FFFFFFF</color>
+
+    <color name="yt_color_yellow">#FBCD04</color>
+
+    <color name="yt_color_gray_dark">#484747</color>
+    <color name="yt_color_gray">#FF7D7D7D</color>
+    <color name="yt_color_gray_light">#FFAEAEAE</color>
+    <color name="yt_color_gray_divider">#FFDEDEDE</color>
+    <color name="yt_color_gray_bg">#FFF3F3F3</color>
+
+    <color name="yt_color_red">#FFEE4550</color>
+    <color name="yt_color_orange">#FFF87D00</color>
+    <color name="yt_color_blue">#FF6299FF</color>
+
+    <color name="yt_color_transparent">#00000000</color>
+    <color name="yt_color_translucent">#7F000000</color>
+
+    <color name="yt_color_text_default">#000000</color>
+</resources>
